@@ -1,1 +1,0 @@
-import{r,a,k as o,R as c}from"./index-86f17670.js";function i(){const[s,t]=r.useState();return r.useEffect(()=>{s||(async()=>{try{const e=await a.get(`${o}`,{...c()});t(e.data)}catch(e){console.error("Error fetching Users:",e)}})()},[s]),s}export{i as G};
