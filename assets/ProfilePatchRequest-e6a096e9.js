@@ -1,1 +1,0 @@
-import{a as t,o as e,R as i}from"./index-8b19a676.js";const c=async(a,o)=>{try{await t.patch(`${e}${o}/`,a,{...i()}),window.location.reload()}catch(r){window.alert(`Error updating Profile: ${r}`)}};export{c as u};

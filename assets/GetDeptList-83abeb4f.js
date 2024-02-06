@@ -1,1 +1,0 @@
-import{r,a,f as n,R as o}from"./index-8b19a676.js";function f(){const[t,s]=r.useState();return r.useEffect(()=>{t||(async()=>{try{const e=await a.get(`${n}`,{...o()});s(e.data)}catch(e){console.error("Error fetching departments:",e)}})()},[t]),t}export{f as G};
