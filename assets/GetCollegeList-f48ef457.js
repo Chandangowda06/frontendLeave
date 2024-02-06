@@ -1,0 +1,1 @@
+import{r as t,a as r,e as a,R as c}from"./index-8b19a676.js";function f(){const[e,o]=t.useState();return t.useEffect(()=>{e||(async()=>{try{const s=await r.get(`${a}`,{...c()});o(s.data)}catch(s){console.error("Error fetching colleges:",s)}})()},[e]),e}export{f as G};
